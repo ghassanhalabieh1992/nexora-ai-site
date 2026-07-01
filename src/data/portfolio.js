@@ -7,9 +7,9 @@ export const PORTRAIT_IMAGE = "https://media.base44.com/images/public/6a3d3c794c
 export const COMPANY_NAME = "Nexora AI";
 export const EMAIL = "nexoraai48@gmail.com";
 
-export const WHATSAPP_NUMBER = "5548991097700"; // رقم واتساب بدون + وبدون مسافات
+export const WHATSAPP_NUMBER = "48991842563"; // رقم واتساب بدون + وبدون مسافات
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
-export const WHATSAPP_DISPLAY = "+55 48 99109-7700";
+export const WHATSAPP_DISPLAY = "+48 99184-2563";
 
 export const projects = [
   {

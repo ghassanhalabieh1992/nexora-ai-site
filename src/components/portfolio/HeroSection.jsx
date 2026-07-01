@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { WHATSAPP_URL } from "@/data/portfolio";
 
 export default function HeroSection({ heroImage }) {
   const containerRef = useRef(null);
@@ -97,7 +98,7 @@ export default function HeroSection({ heroImage }) {
           className="mt-12 flex items-center justify-center gap-6"
         >
           <a
-            href="https://wa.me/5548991097700"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-[#D1FF00] text-[#080808] font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 hover:bg-[#D1FF00]/90 transition-all duration-300"
