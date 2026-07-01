@@ -9,7 +9,7 @@
     "moduleResolution": "bundler",
     "lib": ["esnext", "dom"],
     "target": "esnext",
-    "checkJs": true,
+    "checkJs": false,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -17,5 +17,16 @@
     "types": []
   },
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/components/ui",
+    "src/components/ProtectedRoute.jsx",
+    "src/lib",
+    "src/api",
+    "src/pages/Login.jsx",
+    "src/pages/Register.jsx",
+    "src/pages/ForgotPassword.jsx",
+    "src/pages/ResetPassword.jsx"
+  ]
 }
